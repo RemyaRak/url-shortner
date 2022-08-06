@@ -43,7 +43,7 @@
                         $(".error").html('');
                         $("#genurl").css("display", "block");
                         $("#tinyurl").html(result.url);
-                        $(".tinylink").attr("href", result.url);
+                        $("#tinylink").attr("href", result.url);
                     } else {
                         clear_field();
                         $(".error").html(result.Message);
